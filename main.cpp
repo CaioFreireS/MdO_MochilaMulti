@@ -45,7 +45,6 @@ int main()
     return 0;
 }
 
-
 void testar_construtivas()
 {
     Solucao sa, sg;
@@ -60,7 +59,6 @@ void testar_construtivas()
 
 }
 
-
 void heu_cons_gulosa(Solucao& s)
 {
     memset(&vet_uso_moc, 0, sizeof(vet_uso_moc));
@@ -74,7 +72,6 @@ void heu_cons_gulosa(Solucao& s)
                 break;
             }
 }
-
 
 void ordenar_objetos()
 {
@@ -98,10 +95,6 @@ void ordenar_objetos()
         }
     }
 }
-
-
-
-
 
 void testar_estruturas()
 {
@@ -142,8 +135,6 @@ void testar_estruturas()
     printf("\nCalcular FO: %.5f", tempo);
 
 }
-
-
 
 void calc_fo_solucao(Solucao& s)
 {
@@ -208,7 +199,6 @@ void calc_fo_solucaoBIN(SolucaoBIN& s)
         printf("%d  ", vet_qtd_obj[i]);*/
 
 }
-
 
 void escrever_solucaoBIN(SolucaoBIN& s)
 {
